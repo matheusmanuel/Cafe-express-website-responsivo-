@@ -10,9 +10,7 @@ html {
 
 /* Classes auxiliares */
 .container {
-    /* Eu ainda não sei como funciona o max-width: ; Depois eu vou pesquisar*/
-    max-width: 1280px;
-    /* background-color: aqua; */
+     max-width: 1280px;
     margin: 0 auto;
     padding: 0 2%;
 }
@@ -44,8 +42,7 @@ html {
 }
 
 .clear {
-    /* Eu ainda não sei como funciona o clear:e as suas propriedades ;Depois eu vou pesquisar  */
-    clear: both;
+   clear: both;
 }
 
 /* Classes do site*/
@@ -77,9 +74,6 @@ nav.menu-desktop ul {
 }
 
 nav.menu-desktop li {
-    /* Com o display:inline-block ele aceita o width e o height
-     Com o display:inline o elemento não aceita o width e o height
-          */
     font-weight: lighter;
     padding: 0 10px;
     display: inline-block;
@@ -101,14 +95,11 @@ nav.menu-desktop li.selected {
 
 /* Secção main-bg */
 section.main-bg {
-    /*necessario para o overlay funcionar */
     position: relative;
     width: 100%;
     padding: 140px 0 200px 0;
     background-image: url(../img/img3.jpg);
-    /* background-image: linear-gradient(to top,rgba(20, 17, 17, 0.568),rgba(0, 0, 0, 0.349)),url(../img/img3.jpg); */
     background-repeat: no-repeat;
-    /* Cover para cobrir tudo*/
     background-size: cover;
     background-position: center;
 }
@@ -127,7 +118,6 @@ section.main-bg p {
     margin-top: 15px;
 }
 
-/* Eu não sei como funciona esta forma de deçlarar */
 section.main-bg>.container {
     position: relative;
     z-index: 2;
@@ -176,9 +166,6 @@ section.diferencias {
 
 .box-icones-single {
     float: left;
-    /* A gente tem três box nê
-   então eu vou fazer 100% dividindo por 3%(três porcento)  fica 33.3..%
-  */
     width: 33.3%;
     padding: 0 10px;
     margin-bottom: 30px;
@@ -237,11 +224,8 @@ section.sobre-equipe>.container {
 }
 
 .descricao-avatar {
-    /* O 70px e o tamanho da imagem (img-avatar)*/
     width: calc(100% - 70px);
-    /* display: inline-block; */
     padding: 0 10px;
-    /* background-color: blue; */
 }
 
 .descricao-avatar h3 {
@@ -303,12 +287,8 @@ section.card {
 }
 
 .card-single {
-    /* background-color: white; */
     width: 33.3%;
     float: left;
-    /* Uma das nova  ecnica de dar espaços nos elementos
-    border: 15px solid white;
-     */
     padding: 50px;
 }
 
@@ -416,14 +396,12 @@ section.title-page {
     min-height: 150px;
     background-position: center;
     background-repeat: no-repeat;
-    /*Cover eh para cobrir tudo*/
     background-size: cover;
     position: relative;
 }
 
 section.title-page>.container {
     position: relative;
-    /* Para usar o z-index tambem e preciso position relativer*/
     z-index: 101;
 }
 
@@ -465,7 +443,6 @@ section.sobre__noticia {
 
 .sobre__single__noticia p {
     font-size: 16px;
-    /* font-weight: lighter; */
     float: left;
     width: 50%;
     line-height: 30px;
@@ -490,7 +467,6 @@ section.paralax {
     min-height: 200px;
     background-image: url(../img/img6.jpg);
     background-position: center;
-    /* background-repeat: no-repeat; */
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
@@ -502,7 +478,6 @@ section.paralax h2.chamada-paralax {
     cursor: pointer;
     color: #44DAc5;
     font-size: 18px;
-    /* O display:inline ocupa toda a linha */
     display: inline-block;
     font-weight: lighter;
     transition: 0.5s;
@@ -528,10 +503,8 @@ section.equipe {
 .equipe-circle {
     margin-top: 50px;
     display: flex;
-    /* Não sei o que significa mas depois vou pesquisar */
     flex-wrap: nowrap;
-    /* width: 33.3%; */
-}
+    }
 
 .equipe-circle-single {
     padding: 0 20px;
@@ -548,7 +521,6 @@ section.equipe {
 .avatar-single
 {
   position: relative;
- /* para formar um circulo o width deve ser igual ah o padding-top*/
   width: 60%;
   padding-top: 60%;
   margin: 0 auto;
